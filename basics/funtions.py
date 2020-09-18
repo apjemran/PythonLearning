@@ -4,8 +4,6 @@ Created on 17-Sep-2020
 @author: mohd.e.khan
 '''
 import math
-import basics.fetchwords
-from basics.fetchwords import fetch_words
 
 def square(x):
     return x*x
@@ -58,6 +56,3 @@ def display_nth_root(radicant, value):
 
 display_nth_root(25, 2)
 display_nth_root(125, 3)
-
-fetch_words()
-        
